@@ -1,28 +1,50 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="cupcake">
+<html lang="en" data-theme="bumblebee">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- external CSS link -->
     <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <span id="" class="text-red-600">lovestruck.inks</span>
-        <ul>
-            <li>Gallery</li>
-            <li>Something</li>
-            <li>Contact</li>    
-            <li>Something</li>
+    <nav class="flex justify-between bg-stone-800 px-3">
+        <div class="flex flex-col justify-center">
+            <span id="title" class="text-white text-6xl"><a href="#">Lovestruck.inks</a></span>
+        </div>
+        
+        <ul class=" flex items-center">
+            <li class="text-white text-4xl h-max p-4 hover:bg-primary cursor-pointer"><a href="#">Gallery</a>
+            </li>
+            <li class="text-white text-4xl h-max p-4 hover:bg-primary cursor-pointer">
+                <a href="#">Something</a>
+            </li>
+            <li class="text-white text-4xl h-max p-4 hover:bg-primary cursor-pointer">
+                <a href="#">Contact</a>
+            </li>    
+            <li class="text-white text-4xl h-max p-4 hover:bg-primary cursor-pointer">
+                <a href="#">Something</a>
+            </li>
         </ul>
     </nav>
-    <main>
-
+    <main id="mainPic" class="p-10 border-2 border-purple-400 bg-blend-color-burn flex">
+        <fieldset class="px-6 border-2 border-slate-300 w-3/5">
+            <legend class="text-white ml-8">UNDER THE NEEDLE</legend>
+            <h1 class="text-white text-8xl font-semibold">Darren Coronado</h1>
+            <blockquote>
+                <p class="text-white text-xl py-4">The best tattoos are the ones that stand the test of time. I like art that reads well in the skin of who I am. That's why I only get all my tattos from Michelle</p>
+            </blockquote>
+        </fieldset>
     </main>
     <section>
-        <section></section>
+        <section class="flex">
+            <section id="image1" class="border-2 border-purple-400 w-2/4"></section>
+            <section class="border-2 border-green-400 w-2/4"></section>
+        </section>
         <section></section>
     </section>
     <section></section>
