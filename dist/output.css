@@ -743,6 +743,14 @@ html {
   height: max-content;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 .w-3\/5 {
   width: 60%;
 }
@@ -775,6 +783,38 @@ html {
   justify-content: space-between;
 }
 
+.gap-y-2 {
+  row-gap: 0.5rem;
+}
+
+.gap-y-4 {
+  row-gap: 1rem;
+}
+
+.gap-y-12 {
+  row-gap: 3rem;
+}
+
+.gap-y-40 {
+  row-gap: 10rem;
+}
+
+.gap-y-24 {
+  row-gap: 6rem;
+}
+
+.gap-y-14 {
+  row-gap: 3.5rem;
+}
+
+.gap-y-10 {
+  row-gap: 2.5rem;
+}
+
+.gap-y-8 {
+  row-gap: 2rem;
+}
+
 .border-2 {
   border-width: 2px;
 }
@@ -787,6 +827,11 @@ html {
 .border-slate-300 {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+.border-amber-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(253 230 138 / var(--tw-border-opacity));
 }
 
 .bg-stone-800 {
@@ -817,6 +862,10 @@ html {
   padding-bottom: 1rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -842,8 +891,25 @@ html {
   line-height: 1;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
 }
 
 .text-white {
@@ -853,6 +919,27 @@ html {
 
 .bg-blend-color-burn {
   background-blend-mode: color-burn;
+}
+
+/* Box Model Hack */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
 }
 
 #title {
@@ -865,7 +952,6 @@ html {
 
 #image1 {
   background: no-repeat center/100%  url(/images/eduardo-vaccari-pIltvcnqsfU-unsplash.jpg);
-  height: 400px;
 }
 
 .hover\:bg-primary:hover {
