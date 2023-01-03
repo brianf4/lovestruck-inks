@@ -726,8 +726,16 @@ html {
   }
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .ml-8 {
   margin-left: 2rem;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .flex {
@@ -745,6 +753,10 @@ html {
 
 .w-2\/4 {
   width: 50%;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .cursor-pointer {
@@ -779,11 +791,6 @@ html {
 .border-slate-300 {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
-}
-
-.border-green-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(74 222 128 / var(--tw-border-opacity));
 }
 
 .bg-stone-800 {
@@ -832,6 +839,11 @@ html {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-semibold {
