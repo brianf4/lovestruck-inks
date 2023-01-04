@@ -730,8 +730,22 @@ html {
   margin: auto;
 }
 
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ml-8 {
   margin-left: 2rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .flex {
@@ -741,10 +755,6 @@ html {
 .h-max {
   height: -moz-max-content;
   height: max-content;
-}
-
-.h-40 {
-  height: 10rem;
 }
 
 .h-96 {
@@ -763,12 +773,28 @@ html {
   width: 80%;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+.flex-\[25\%\] {
+  flex: 25%;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -781,34 +807,6 @@ html {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-y-2 {
-  row-gap: 0.5rem;
-}
-
-.gap-y-4 {
-  row-gap: 1rem;
-}
-
-.gap-y-12 {
-  row-gap: 3rem;
-}
-
-.gap-y-40 {
-  row-gap: 10rem;
-}
-
-.gap-y-24 {
-  row-gap: 6rem;
-}
-
-.gap-y-14 {
-  row-gap: 3.5rem;
-}
-
-.gap-y-10 {
-  row-gap: 2.5rem;
 }
 
 .gap-y-8 {
@@ -847,11 +845,6 @@ html {
   padding: 2.5rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -862,8 +855,27 @@ html {
   padding-bottom: 1rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-6xl {
@@ -900,16 +912,8 @@ html {
   font-weight: 600;
 }
 
-.leading-4 {
-  line-height: 1rem;
-}
-
 .leading-8 {
   line-height: 2rem;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
 }
 
 .text-white {
@@ -942,8 +946,12 @@ html {
   clear: both;
 }
 
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 #title {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive, sans-serif;
 }
 
 #mainPic {
@@ -954,7 +962,27 @@ html {
   background: no-repeat center/100%  url(/images/eduardo-vaccari-pIltvcnqsfU-unsplash.jpg);
 }
 
-.hover\:bg-primary:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--p) / var(--tw-bg-opacity));
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: hsl(var(--p) / var(--tw-text-opacity));
+}
+
+@media (max-width: 767px) {
+  .md\:max-w-\[50\%\] {
+    max-width: 50%;
+  }
+
+  .md\:flex-\[50\%\] {
+    flex: 50%;
+  }
+}
+
+@media (max-width: 639px) {
+  .sm\:max-w-full {
+    max-width: 100%;
+  }
+
+  .sm\:flex-\[100\%\] {
+    flex: 100%;
+  }
 }
