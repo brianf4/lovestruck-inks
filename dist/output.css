@@ -726,38 +726,6 @@ html {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.right-10 {
-  right: 2.5rem;
-}
-
-.right-20 {
-  right: 5rem;
-}
-
-.right-40 {
-  right: 10rem;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -797,6 +765,10 @@ html {
   width: 60%;
 }
 
+.w-2\/5 {
+  width: 40%;
+}
+
 .w-2\/4 {
   width: 50%;
 }
@@ -807,14 +779,6 @@ html {
 
 .w-full {
   width: 100%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-2\/5 {
-  width: 40%;
 }
 
 .max-w-5xl {
@@ -867,14 +831,14 @@ html {
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
 }
 
-.border-amber-200 {
-  --tw-border-opacity: 1;
-  border-color: rgb(253 230 138 / var(--tw-border-opacity));
-}
-
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-amber-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(253 230 138 / var(--tw-border-opacity));
 }
 
 .bg-stone-800 {
