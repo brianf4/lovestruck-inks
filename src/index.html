@@ -13,126 +13,146 @@
     <title>Document</title>
 </head>
 <body class="bg-stone-800">
-    <nav class="flex justify-between bg-stone-800 p-4">
-        <div class="flex flex-col justify-center">
-            <span id="title" class="text-white text-6xl"><a href="#">Lovestruck.inks</a></span>
-        </div>
+    <!-- Hamburger -->
+    <div class="drawer">
+        <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+        <div class="drawer-content">
+          <!-- Page content here -->
+          <label for="my-drawer" class="btn btn-primary drawer-button hidden">Open drawer</label>
+          <nav class="flex justify-between bg-stone-800 p-4">
         
-        
-        <ul class=" flex items-center">
-            <li class="text-white text-4xl h-max p-4 hover:text-primary cursor-pointer"><a href="#">Gallery</a>
-            </li>
-            <li class="text-white text-4xl h-max p-4 hover:text-primary cursor-pointer">
-                <a href="#">Something</a>
-            </li>
-            <li class="text-white text-4xl h-max p-4 hover:text-primary cursor-pointer">
-                <a href="#">Contact</a>
-            </li>    
-            <li class="text-white text-4xl h-max p-4 hover:text-primary cursor-pointer">
-                <a href="#">Something</a>
-            </li>
-        </ul>
-    </nav>
-    <main id="mainPic" class="p-10 border-2 border-purple-400 bg-blend-color-burn flex">
-        <fieldset class="px-6 border-2 border-slate-300 w-3/5">
-            <legend class="text-white ml-8">UNDER THE NEEDLE</legend>
-            <h2 class="text-white text-8xl font-semibold">Darren Coronado</h2>
-            <blockquote>
-                <p class="text-white text-xl py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aperiam architecto optio. Minus magnam ab delectus laborum at voluptatem ut. Fugiat placeat quos sint, voluptatem libero natus neque impedit debitis. </p>
-            </blockquote>
-        </fieldset>
-        <section class="w-2/5 flex items-end justify-center">
-            <div class="text-white text-4xl">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-square-facebook"></i>
-            </div>
-        </section>
-    </main>
-    <section>
-        <section class="flex h-96">
-            <section id="image1" class="border-2 border-purple-400 w-2/4">
-            </section>
-            <section class="w-2/4 flex">
-                <fieldset class="px-6 border-2 border-slate-300 w-4/5 h-max m-auto flex flex-col gap-y-8">
-                    <legend class="text-white ml-8">UNDER THE NEEDLE</legend>
-                    <h2 class="text-white text-7xl font-semibold text-center">Tattoo Art</h2>
-                    <blockquote>
-                        <p class="text-white text-2xl py-4 leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda magni tempore suscipit totam dolor dolorum aut debitis consequatur ad pariatur, quas voluptatem, dolore corrupti rerum incidunt doloribus, aspernatur qui nemo.</p>
-                    </blockquote>
-                </fieldset>
-            </section>
-        </section>
-    </section>
-    <section class="imgGridContainer border-2 border-amber-200 py-8">
-        <h3 class="text-white text-center">Work</h3>
-        <!-- Photo Grid -->
-        <div class="flex flex-wrap py-0 px-1 max-w-5xl my-0 mx-auto">
-            <!-- Column 1  -->
-            <div class="flex-[25%] py-0 px-1 sm:flex-[100%] sm:max-w-full md:flex-[50%] md:max-w-[50%]">
-            <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-23-01.jpg">
-            <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-11-03.jpg">
-            <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-11-04.jpg">
-            </div>
 
-            <!-- Column 2  -->
-            <div class="flex-[25%] py-0 px-1 sm:flex-[100%] sm:max-w-full md:flex-[50%] md:max-w-[50%]">
-            <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-11-01.jpg">
-            <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-12-02.jpg">
+            <div class="flex flex-col justify-center">
+                <span id="title" class="text-white text-6xl"><a href="#">Lovestruck.inks</a></span>
             </div>
             
-            <!-- Column 3  -->
-            <div class="flex-[25%] py-0 px-1 sm:flex-[100%] sm:max-w-full md:flex-[50%] md:max-w-[50%]">
-            <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-12-01.jpg">
-            <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-23-03.jpg">
-            </div>
-
-            <!-- Column 4  -->
-            <div class="flex-[25%] py-0 px-1 sm:flex-[100%] sm:max-w-full md:flex-[50%] md:max-w-[50%]">
-            <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-11-02.jpg">
-            <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-23-02.jpg">
-            <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-11-05.jpg">
-            </div>
-        </div>
-    </section>
-    <section>
-        
-    </section>
-    <footer class="text-white p-20">
-        <h3 class="text-center text-4xl my-6">CONTACT ME</h3>
-        <section class="flex gap-x-4">
-            <section class="flex flex-col w-2/4 gap-y-4">
-                <div>
-                    <span>Share your idea</span>
-                    <h4 class="text-5xl tracking-widest">BOOK ANYTIME</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat temporibus exercitationem rerum architecto eaque cum laboriosam fuga repudiandae delectus.</p>
-                </div>
-                <div>
-                    <span>MONDAY-FRIDAY:</span>
-                    <span>9am-9pm</span>
-                </div>
-                <hr class="border-t-4 border-dotted w-2/4 tracking-widest">
-                <div>
-                    <span>SATURDAY:</span>
-                    <span>9am-3pm</span>
-                </div>
-                <hr class="border-t-4 border-dotted w-2/4 tracking-widest">
-                <div>
-                    <span>SUNDAY:</span>
-                    <span>closed</span>
+            
+            <ul class=" flex items-center">
+                <li class="text-white text-4xl h-max p-4 hover:text-primary cursor-pointer"><a href="#">Gallery</a>
+                </li>
+                <li class="text-white text-4xl h-max p-4 hover:text-primary cursor-pointer">
+                    <a href="#">Something</a>
+                </li>
+                <li class="text-white text-4xl h-max p-4 hover:text-primary cursor-pointer">
+                    <a href="#">Contact</a>
+                </li>    
+                <li class="text-white text-4xl h-max p-4 hover:text-primary cursor-pointer">
+                    <a href="#">Something</a>
+                </li>
+            </ul>
+        </nav>
+        <main id="mainPic" class="p-10 border-2 border-purple-400 bg-blend-color-burn flex">
+            <fieldset class="px-6 border-2 border-slate-300 w-3/5">
+                <legend class="text-white ml-8">UNDER THE NEEDLE</legend>
+                <h2 class="text-white text-8xl font-semibold">Darren Coronado</h2>
+                <blockquote>
+                    <p class="text-white text-xl py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aperiam architecto optio. Minus magnam ab delectus laborum at voluptatem ut. Fugiat placeat quos sint, voluptatem libero natus neque impedit debitis. </p>
+                </blockquote>
+            </fieldset>
+            <section class="w-2/5 flex items-end justify-center">
+                <div class="text-white text-4xl">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
                 </div>
             </section>
-            <section class="border-2 w-2/4">
-                <form action="">
-                    <fieldset class="flex flex-col">
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full" />
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full" />
-                        <textarea class="textarea textarea-bordered w-full" placeholder="Message"></textarea>
-                        <button class="btn btn-active btn-primary block w-1/4" type="submit">Button</button>
+        </main>
+        <section>
+            <section class="flex h-96">
+                <section id="image1" class="border-2 border-purple-400 w-2/4">
+                </section>
+                <section class="w-2/4 flex">
+                    <fieldset class="px-6 border-2 border-slate-300 w-4/5 h-max m-auto flex flex-col gap-y-8">
+                        <legend class="text-white ml-8">UNDER THE NEEDLE</legend>
+                        <h2 class="text-white text-7xl font-semibold text-center">Tattoo Art</h2>
+                        <blockquote>
+                            <p class="text-white text-2xl py-4 leading-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda magni tempore suscipit totam dolor dolorum aut debitis consequatur ad pariatur, quas voluptatem, dolore corrupti rerum incidunt doloribus, aspernatur qui nemo.</p>
+                        </blockquote>
                     </fieldset>
-                </form>
+                </section>
             </section>
         </section>
-    </footer>
+        <section class="imgGridContainer border-2 border-amber-200 py-8">
+            <h3 class="text-white text-center text-6xl my-6">Work</h3>
+            <!-- Photo Grid -->
+            <div class="flex flex-wrap py-0 px-1 max-w-5xl my-0 mx-auto">
+                <!-- Column 1  -->
+                <div class="flex-[25%] py-0 px-1 sm:flex-[100%] sm:max-w-full md:flex-[50%] md:max-w-[50%]">
+                <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-23-01.jpg">
+                <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-11-03.jpg">
+                <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-11-04.jpg">
+                </div>
+    
+                <!-- Column 2  -->
+                <div class="flex-[25%] py-0 px-1 sm:flex-[100%] sm:max-w-full md:flex-[50%] md:max-w-[50%]">
+                <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-11-01.jpg">
+                <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-12-02.jpg">
+                </div>
+                
+                <!-- Column 3  -->
+                <div class="flex-[25%] py-0 px-1 sm:flex-[100%] sm:max-w-full md:flex-[50%] md:max-w-[50%]">
+                <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-12-01.jpg">
+                <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-23-03.jpg">
+                </div>
+    
+                <!-- Column 4  -->
+                <div class="flex-[25%] py-0 px-1 sm:flex-[100%] sm:max-w-full md:flex-[50%] md:max-w-[50%]">
+                <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-11-02.jpg">
+                <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-23-02.jpg">
+                <img class="w-full mt-2 align-middle" src="http://www.tooplate.com/templates/2094_mason/img/gallery-img-11-05.jpg">
+                </div>
+            </div>
+        </section>
+        <section>
+            
+        </section>
+        <footer id="contact" class="text-white p-20">
+            <h3 class="text-center text-4xl my-6">CONTACT ME</h3>
+            <section class="flex gap-x-4">
+                <section class="flex flex-col w-2/4 gap-y-4  px-12">
+                    <div>
+                        <span class="text-xl italic tracking-wide">Share your idea</span>
+                        <h4 class="text-5xl tracking-widest my-2">BOOK ANYTIME</h4>
+                        <p class="text-lg w-4/5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat temporibus exercitationem rerum architecto eaque cum laboriosam fuga repudiandae delectus.</p>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-lg">MONDAY-FRIDAY:</span>
+                        <span class="text-lg">9am - 9pm</span>
+                    </div>
+                    <hr class="border-t-4 border-dotted w-2/4 tracking-widest">
+                    <div class="flex justify-between">
+                        <span class="text-lg">SATURDAY:</span>
+                        <span class="text-lg">9am - 3pm</span>
+                    </div>
+                    <hr class="border-t-4 border-dotted w-2/4 tracking-widest">
+                    <div class="flex justify-between">
+                        <span class="text-lg">SUNDAY:</span>
+                        <span class="text-lg">closed</span>
+                    </div>
+                </section>
+                <section class="w-2/4 px-8">
+                    <form action="" class="h-full">
+                        <fieldset class="flex flex-col justify-around h-full text-black">
+                            <input type="text" placeholder="Type here" class="input input-primary w-full" />
+                            <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full" />
+                            <textarea class="textarea textarea-bordered w-full textarea-primary" placeholder="Message"></textarea>
+                            <button class="btn btn-active btn-primary block w-1/4 hover:bg-secondary hover:text-white" type="submit">Send</button>
+                        </fieldset>
+                    </form>
+                </section>
+            </section>
+        </footer>
+        </div> 
+        <div class="drawer-side">
+          <label for="my-drawer" class="drawer-overlay"></label>
+          <ul class="menu p-4 w-80 bg-base-100 text-base-content">
+            <!-- Sidebar content here -->
+            <li><a>Sidebar Item 1</a></li>
+            <li><a>Sidebar Item 2</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    
     
 </body>
 </html>
