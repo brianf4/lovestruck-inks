@@ -1779,6 +1779,11 @@ body[dir="rtl"] .checkbox:checked,
   margin: auto;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .my-0 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1789,24 +1794,9 @@ body[dir="rtl"] .checkbox:checked,
   margin-right: auto;
 }
 
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
 }
 
 .ml-8 {
@@ -1817,20 +1807,12 @@ body[dir="rtl"] .checkbox:checked,
   margin-top: 0.5rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .block {
   display: block;
 }
 
 .flex {
   display: flex;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-max {
@@ -1882,10 +1864,6 @@ body[dir="rtl"] .checkbox:checked,
   flex: 25%;
 }
 
-.grow {
-  flex-grow: 1;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1929,11 +1907,6 @@ body[dir="rtl"] .checkbox:checked,
 
 .gap-y-4 {
   row-gap: 1rem;
-}
-
-.gap-x-6 {
-  -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
 }
 
 .border-2 {
@@ -2010,11 +1983,6 @@ body[dir="rtl"] .checkbox:checked,
   padding-right: 0.25rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -2085,12 +2053,12 @@ body[dir="rtl"] .checkbox:checked,
   line-height: 2rem;
 }
 
-.tracking-widest {
-  letter-spacing: 0.1em;
-}
-
 .tracking-wide {
   letter-spacing: 0.025em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-white {
@@ -2164,15 +2132,31 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (max-width: 1535px) {
-  .\32xl\:hidden {
-    display: none;
+@media (max-width: 1279px) {
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
 @media (max-width: 1023px) {
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -2193,5 +2177,17 @@ body {
 
   .sm\:flex-\[100\%\] {
     flex: 100%;
+  }
+}
+
+@media (min-width: 1023px) {
+  .minmq-lg\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .minmq-md\:hidden {
+    display: none;
   }
 }
