@@ -4,5 +4,22 @@
   },
   "dependencies": {
     "daisyui": "^2.31.0"
-  }
+  },
+  "name": "lovestruck-inks",
+  "description": "",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianf4/lovestruck-inks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianf4/lovestruck-inks/issues"
+  },
+  "homepage": "https://github.com/brianf4/lovestruck-inks#readme"
 }
