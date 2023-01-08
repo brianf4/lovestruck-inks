@@ -30,9 +30,9 @@ body {
 }
 
 #mainPic {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), no-repeat center/100%  url(./src/images/lucas-lenzi-zeT_i6av9rU-unsplash.jpg); 
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), no-repeat center/100%  url(/src/images/lucas-lenzi-zeT_i6av9rU-unsplash.jpg); 
 }
 
 #image1 {
-    background: no-repeat center/100%  url(./src/images/eduardo-vaccari-pIltvcnqsfU-unsplash.jpg);
+    background: no-repeat center/100%  url(/src/images/eduardo-vaccari-pIltvcnqsfU-unsplash.jpg);
 }
